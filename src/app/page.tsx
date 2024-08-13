@@ -1,13 +1,16 @@
 import Image from "next/image";
 
-// 28.17
+// 40
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Spacing from "@/components/Spacing";
 
 export default function Home() {
-  console.log("Hello, World!");
   return (
     <main>
       <Header />
+      <Spacing size="md" />
+      <Hero />
     </main>
   );
 }
